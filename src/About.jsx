@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import profilePic from "/src/assets/download.jpeg";
+import linkedinPic from "/src/assets/linkedin.svg";
 
 export default function About() {
 	return (
@@ -20,7 +21,7 @@ export default function About() {
 				</button>
 				<button className="socialBtns">
 					<a href="https://stallman.org/" className="social-names">
-						<img className="linkedin-icon" src="src/assets/linkedin.svg"></img>
+						<img className="linkedin-icon" src={linkedinPic}></img>
 					</a>
 					<div className="link-name linkedin">LinkedIn</div>
 				</button>
