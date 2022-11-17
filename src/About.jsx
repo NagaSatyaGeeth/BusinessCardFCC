@@ -1,10 +1,11 @@
 import React from "react";
 import "./About.css";
+import profilePic from "/src/assets/download.jpeg";
 
 export default function About() {
 	return (
 		<section className="personalInfo">
-			<img className="profilePic" src="src/assets/download.jpeg"></img>
+			<img className="profilePic" src={profilePic}></img>
 			<div className="name">Richard Stallman</div>
 			<div className="devRole">G.O.A.T</div>
 			<a href="https://stallman.org/" className="websiteLink">
