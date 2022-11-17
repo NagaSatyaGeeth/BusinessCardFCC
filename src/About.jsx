@@ -4,10 +4,7 @@ import "./About.css";
 export default function About() {
 	return (
 		<section className="personalInfo">
-			<img
-				className="profilePic"
-				src={require("src/assets/download.jpeg")}
-			></img>
+			<img className="profilePic" src="public/download.jpeg"></img>
 			<div className="name">Richard Stallman</div>
 			<div className="devRole">G.O.A.T</div>
 			<a href="https://stallman.org/" className="websiteLink">
